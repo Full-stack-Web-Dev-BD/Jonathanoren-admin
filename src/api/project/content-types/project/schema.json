@@ -35,10 +35,8 @@
       ]
     },
     "keywords": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::keyword.keyword",
-      "mappedBy": "projects"
+      "type": "json",
+      "required": true
     }
   }
 }

@@ -4,7 +4,7 @@
   "info": {
     "singularName": "keyword",
     "pluralName": "keywords",
-    "displayName": "Keyword"
+    "displayName": "keyword"
   },
   "options": {
     "draftAndPublish": true
@@ -14,12 +14,6 @@
     "title": {
       "type": "string",
       "required": true
-    },
-    "projects": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::project.project",
-      "inversedBy": "keywords"
     }
   }
 }
