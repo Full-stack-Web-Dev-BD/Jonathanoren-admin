@@ -20,9 +20,6 @@
       "type": "richtext",
       "required": true
     },
-    "CodeSnippet": {
-      "type": "richtext"
-    },
     "Image": {
       "type": "media",
       "multiple": false,
@@ -37,6 +34,12 @@
     "keywords": {
       "type": "json",
       "required": true
+    },
+    "code_snippets": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::code-snippet.code-snippet",
+      "mappedBy": "project"
     }
   }
 }
