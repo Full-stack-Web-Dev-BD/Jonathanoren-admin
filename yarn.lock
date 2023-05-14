@@ -9279,6 +9279,11 @@ std-env@^3.0.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.3.3.tgz#a54f06eb245fdcfef53d56f3c0251f1d5c3d01fe"
   integrity sha512-Rz6yejtVyWnVjC1RFvNmYL10kgjC49EOghxWn0RFqlCHGFpQx+Xe7yW3I4ceK1SGrWIGMjD5Kbue8W/udkbMJg==
 
+strapi-plugin-cloudflare-pages@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-cloudflare-pages/-/strapi-plugin-cloudflare-pages-0.4.1.tgz#5b6223a3d9a6de361875ac4839b9c3dc633671db"
+  integrity sha512-1W2JQI7ciINrBgvhNqCPh3dMem29mnfsZI0chhX5Sg6aG+oBGaTUNbzLBPaw/sTEZZaFlfO6Sg1/6HTuomsq3Q==
+
 stream-chain@2.2.5, stream-chain@^2.2.5:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/stream-chain/-/stream-chain-2.2.5.tgz#b30967e8f14ee033c5b9a19bbe8a2cba90ba0d09"
