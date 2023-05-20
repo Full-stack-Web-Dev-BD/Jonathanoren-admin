@@ -17,12 +17,6 @@
     },
     "code": {
       "type": "richtext"
-    },
-    "project": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::project.project",
-      "inversedBy": "code_snippets"
     }
   }
 }
