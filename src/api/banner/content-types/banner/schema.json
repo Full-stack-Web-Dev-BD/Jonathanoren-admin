@@ -4,7 +4,8 @@
   "info": {
     "singularName": "banner",
     "pluralName": "banners",
-    "displayName": "banner"
+    "displayName": "banner",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -28,14 +29,22 @@
       "required": true
     },
     "img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false,
+      ]
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "linkedin": {
+      "type": "string",
       "required": true
     }
   }
